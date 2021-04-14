@@ -1,3 +1,19 @@
+# What is this:
+
+This code is a "vanilla" Marlin 1.1.9.1 for the Geeetech A10 printer (Mainboard: BOARD_GT2560_V3_0).
+
+board.h, pins.h and pins_GT2560_V3.0.h was modified/created to support the GT2560_V3.0 board.
+
+Differences from "factory" machine:
+
+- BLTouch enabled, and configured. Change it, if you need.
+- INVERT_X_DIR and INVERT_Y_DIR is set for my TMC2108 driver (A4988 legacy comapatible mode, only XY axis), invert it back if needed.
+- DEFAULT_AXIS_STEPS_PER_UNIT is set for my dual gear extruder, revert back if needed.
+- Home offset is set in MANUAL_X_HOME and MANUAL_Y_HOME, adjust if needed.
+- PID and PIDbed Ki Kp Kd values are set for my printer, adjust is needed.
+- Linear Advance is enabled, left is default vale (0.22?), because it was good for me.
+
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
