@@ -11,7 +11,7 @@ Differences from "factory" machine:
 - DEFAULT_AXIS_STEPS_PER_UNIT is set for my dual gear extruder, revert back if needed.
 - Home offset is set in MANUAL_X_HOME and MANUAL_Y_HOME, adjust if needed.
 - PID and PIDbed Ki Kp Kd values are set for my printer, adjust is needed.
-- Linear Advance is enabled, left is default vale (0.22?), because it was good for me.
+- Linear Advance is enabled, left in default vale (0.22?), because it was good for me.
 
 
 # Marlin 3D Printer Firmware
